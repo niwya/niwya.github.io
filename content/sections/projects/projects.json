@@ -1,0 +1,37 @@
+{
+  "projects": [
+    {
+      "visible": true,
+      "category": "ELECTRONICS",
+      "title": "Automatic Plant Watering System",
+      "description": "I do love having plants in my apartment - but I also always forget to water them (which is bad). That's why I'm putting up an automated system to do that for me.",
+      "tags": ["ESP-32 development board", "IoT"],
+      "image": {
+        "src": "../../images/300921-2.jpg",
+        "alt": "Plants at the Garfield Park Conservatory of Chicago"
+      }
+    },
+    {
+      "visible": false,
+      "category": "...",
+      "title": "...",
+      "description": "...",
+      "tags": ["..."],
+      "image": {
+        "src": "../../images/...",
+        "alt": "..."
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme"
+        }
+      ]
+    }
+  ],
+  "button": {
+    "visible": false,
+    "label": "Visit on Github",
+    "url": "https://github.com/konstantinmuenster/gatsby-theme-portfolio-minimal"
+  }
+}

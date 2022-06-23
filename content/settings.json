@@ -1,0 +1,43 @@
+{
+  "siteMetadata": {
+    "language": "en",
+    "siteUrl": "",
+    "title": "cb ·",
+    "titleTemplate": "cb · %s",
+    "description": "",
+    "author": "Chloé BENZ",
+    "avatar": "../content/images/cb.png",
+    "bio": "Freshly graduated engineer, part time dancer and photographer.",
+    "social": {
+      "behance": "",
+      "github": "https://github.com/niwya",
+      "medium": "",
+      "linkedin": "https://www.linkedin.com/in/chloe-benz/?locale=en_US",
+      "mail": "chloe.c.benz@gmail.com"
+    }
+  },
+  "siteConfiguration": {
+    "logo": { "text": "cb ·" },
+    "navigation": {
+      "header": [
+        { "label": "About", "url": "/#about" },
+        { "label": "Projects", "url": "/projects" },
+        { "label": "Photography", "url": "/photography" },
+        { "label": "Github", "url": "https://github.com/niwya" }
+      ],
+      "ctaButton": {
+        "openNewTab": true,
+        "label": "Resume",
+        "url": "/resume.pdf"
+      },
+      "footer": [
+        { "label": "Original website by Konstantin Münster", "url": "https://www.konstantin.digital/" }
+      ]
+    },
+    "featureToggles": {
+      "useDarkModeAsDefault": false,
+      "useDarkModeBasedOnUsersPreference": true,
+      "useCookieBar": false
+    }
+  }
+}
