@@ -4,7 +4,7 @@ description: 'Basic restaurant knowledge domain in CR-Prolog SPARC for an autono
 customer-oriented tasks and collaborated on linking it to a simulated environment made with PyBullet.'
 date: '2020-09-01'
 banner:
-    src: '../../images/kelly-sikkema-Hl3LUdyKRic-unsplash.jpg'
+    src: '../../images/300921-2.jpg'
     alt: 'First Markdown Post'
     caption: ''
 categories:
