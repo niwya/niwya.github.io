@@ -1,0 +1,18 @@
+{
+  "intro": "Bonjour!",
+  "image": {
+    "src": "../../images/hi.png",
+    "alt": "Waving Hand Drawing"
+  },
+  "title": "I'm Chloé BENZ",
+  "subtitle": {
+    "prefix": "I'm an ",
+    "highlight": "Aerospace Engineer",
+    "suffix": "."
+  },
+  "description": "But also a dancer, a photographer, and many other things...",
+  "socialProfiles": {
+    "from": ["LinkedIn", "Github", "Mail"],
+    "showIcons": true
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "interests": [
+    {
+      "label": "Programming",
+      "image": {
+        "src": "../../images/joystick.png",
+        "alt": ""
+      }
+    },
+    {
+      "label": "Photography",
+      "image": {
+        "src": "../../images/joystick.png",
+        "alt": ""
+      }
+    }, 
+    {
+      "label": "Dance",
+      "image": {
+        "src": "../../images/joystick.png",
+        "alt": ""
+      }
+    }, 
+    {
+      "label": "Navigation",
+      "image": {
+        "src": "../../images/joystick.png",
+        "alt": ""
+      }
+    }, 
+    {
+      "label": "Aerospace Engineering",
+      "image": {
+        "src": "../../images/joystick.png",
+        "alt": ""
+      }
+    },
+    {
+      "label": "Sensor Fusion",
+      "image": {
+        "src": "../../images/joystick.png",
+        "alt": ""
+      }
+    }, 
+    {
+      "label": "Gaming",
+      "image": {
+        "src": "../../images/joystick.png",
+        "alt": ""
+      }
+    }, 
+    {
+      "label": "Robotics",
+      "image": {
+        "src": "../../images/joystick.png",
+        "alt": ""
+      }
+    }, 
+    {
+      "label": "Autonomous Systems",
+      "image": {
+        "src": "../../images/joystick.png",
+        "alt": ""
+      }
+    }, 
+    {
+      "label": "Motorcycles",
+      "image": {
+        "src": "../../images/joystick.png",
+        "alt": ""
+      }
+    }, 
+    {
+      "label": "Formula 1",
+      "image": {
+        "src": "../../images/joystick.png",
+        "alt": ""
+      }
+    }
+  ],
+  "button": {
+    "visible": true,
+    "label": "+ Load More",
+    "initiallyShownInterests": 5
+  }
+}
