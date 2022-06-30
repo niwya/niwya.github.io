@@ -2,6 +2,17 @@
   "projects": [
     {
       "visible": true,
+      "category": "WEBSITE",
+      "title": "My Personal Website",
+      "description": "This website is in construction - please excuse the mess! In the meantime, enjoy this night shot of Chicago that I took.",
+      "tags": ["Javascript", "React", "Gatsby", "Markdown"],
+      "image": {
+        "src": "../../images/360_batch1-2.jpg",
+        "alt": "Night view of Lake Shore Drive in Chicago"
+      }
+    },
+    {
+      "visible": true,
       "category": "ELECTRONICS",
       "title": "Automatic Plant Watering System",
       "description": "I do love having plants in my apartment - but I also always forget to water them (which is bad). That's why I'm putting up an automated system to do that for me.",
@@ -10,24 +21,8 @@
         "src": "../../images/300921-2.jpg",
         "alt": "Plants at the Garfield Park Conservatory of Chicago"
       }
-    },
-    {
-      "visible": false,
-      "category": "...",
-      "title": "...",
-      "description": "...",
-      "tags": ["..."],
-      "image": {
-        "src": "../../images/...",
-        "alt": "..."
-      },
-      "links": [
-        {
-          "type": "github",
-          "url": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme"
-        }
-      ]
     }
+
   ],
   "button": {
     "visible": false,
