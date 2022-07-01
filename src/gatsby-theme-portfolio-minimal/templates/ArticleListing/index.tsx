@@ -61,7 +61,6 @@ export default function ArticleListingTemplate(props: ArticleListingTemplateProp
             <Page>
                 <Section anchor="articleListing" heading="Projects">
                     <div className={classes.Filter}>
-                        Select categories to filter articles
                         <Slider additionalClasses={[classes.Options]}>
                             {filterOptions.map((option, key) => {
                                 return (
