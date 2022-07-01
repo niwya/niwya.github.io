@@ -2,7 +2,7 @@
   "siteMetadata": {
     "language": "en",
     "siteUrl": "",
-    "title": "cb ·",
+    "title": "cb · Chloé BENZ",
     "titleTemplate": "cb · %s",
     "description": "",
     "author": "Chloé BENZ",
@@ -17,7 +17,7 @@
     }
   },
   "siteConfiguration": {
-    "logo": { "text": "cb ·" },
+    "logo": { "text": "cb · " },
     "navigation": {
       "header": [
         { "label": "About", "url": "/#about" },
@@ -31,7 +31,7 @@
         "url": "/resume.pdf"
       },
       "footer": [
-        { "label": "Original website by Konstantin Münster", "url": "https://www.konstantin.digital/" }
+        { "label": "···", "url": "https://www.konstantin.digital/" }
       ]
     },
     "featureToggles": {
