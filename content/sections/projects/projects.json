@@ -4,11 +4,12 @@
       "visible": true,
       "category": "WEBSITE",
       "title": "My Personal Website",
-      "description": "This website is in construction - please excuse the mess! In the meantime, enjoy this night shot of Chicago that I took.",
+      "description": "This website is in construction - please excuse the mess! In the meantime, enjoy this night shot of Chicago that I took. And click the image if you want to see more pictures!",
       "tags": ["Javascript", "React", "Gatsby", "Markdown"],
       "image": {
         "src": "../../images/360_batch1-2.jpg",
-        "alt": "Night view of Lake Shore Drive in Chicago"
+        "alt": "Night view of Lake Shore Drive in Chicago", 
+        "linkTo": "https://www.instagram.com/chlosmonaute_/"
       }
     },
     {
@@ -19,6 +20,18 @@
       "tags": ["ESP-32 development board", "IoT"],
       "image": {
         "src": "../../images/300921-2.jpg",
+        "alt": "Plants at the Garfield Park Conservatory of Chicago"
+      }
+    }, 
+
+    {
+      "visible": true,
+      "category": "3D MODELING",
+      "title": "Split-Flap Display",
+      "description": "Started this project with my roommate so that we can decorate our place. We're currently at the 3D modeling stage, figuring out which materials to use for easy machining and assembly.",
+      "tags": ["FreeCAD"],
+      "image": {
+        "src": "",
         "alt": "Plants at the Garfield Park Conservatory of Chicago"
       }
     }
