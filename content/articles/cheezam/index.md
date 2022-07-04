@@ -56,16 +56,47 @@ ___
 ## Classifier architectures
 &nbsp;&nbsp;&nbsp;Multiple classifier architectures were used to train models and confront the results. 
 ### Base model
-### Base model with dropout
-### Base model with data augmentation
-### VGG-16 with data augmentation
+&nbsp;&nbsp;&nbsp;The base model has the following architecture:
+<div align="center">
 
+| **Layer** | &nbsp;&nbsp;&nbsp; **Output Shape** &nbsp;&nbsp;&nbsp;| **Activation** |
+| :-------- | :--------------: | -------------: | 
+| Rescaling | 256·256·3  | · |
+| Conv2D | 256·256·32 | ReLu |
+| MaxPooling | 128·128·32 | · |
+| Conv2D | 128·128·32 | ReLu |
+| MaxPooling | 64·64·32 | · |
+| Conv2D | 64·64·32 | ReLu |
+| MaxPooling | 32·32·32 | · |
+| Flatten | 32768 | · |
+| Dense | 128 | ReLu |
+| Dense | 5 | Softmax |
+
+</div>
+
+<img src="../../images/baseNetwork.png">
+
+&nbsp;&nbsp;&nbsp;The rescaling layer is only there because the initial images are all different sizes - and they all need to be the same size once fed as input to the classifier.
+
+### Base model with dropout
+&nbsp;&nbsp;&nbsp;The base model is used, but with a few tweaks. Dropout layers are added after the second and third convolutional layers. These dropout layers randomly set inputs to 0 <u>with a frequency of 0.4</u> (during training only). This helps avoiding the overfitting of our model - *i.e.* it prevents the model from picking up too many details from the training data that may not be generalizable. 
+
+
+### Base model with dropout and data augmentation
+&nbsp;&nbsp;&nbsp;Here once again, the base model is incremented with three new layers: <u>RandomFlip</u>, <u>RandomRotation</u> and <u>RandomZoom</u> , with parameters <u>'horizontal'</u>, <u>0.1</u> and <u>0.1</u> respectfully. Those layers are placed right after the resizing layer, and before the first convolution. This layer will provide artificial new images, by messing a bit with the images from the initial dataset. This way, the network is more robust to changes in size or in orientation of the cheeses.
+
+### VGG-16 with dropout and data augmentation
+&nbsp;&nbsp;&nbsp;The VGG-16 architecture is [...].
 ___
 
 ## Future work
 ### Adding this project to GitHub
 &nbsp;&nbsp;&nbsp;Since this is was a school project, I have everything offline on my PC. I am currently in the process of adapting everything to post on my GitHub page, so that you can try it yourself if you want. Stay tuned!
+
 ### More cheeses 
+&nbsp;&nbsp;&nbsp;The idea is to be able to classify most cheeses from pictures - and there are a LOT of them. But this requires me to build a dataset, and in the state of things, will be difficult. Not only the number of images I can get from Google Images is limited to a few hundreds per cheese type, but some cheeses may be underdocumented. Also, the neural network will need to be tweaked a little to accomodate the high number of labels. 
+
 ### An app?
+&nbsp;&nbsp;&nbsp;The end goal for this project is to build an actual application to be used on phones, to classify cheeses on the fly (*i.e* when you are at a restaurant and want to know what kind of cheese is in your platter). This is 100% doable, but an issue to keep in mind is that <u>cheeses on cheese platters are often cut in small slices</u> - which means I probaly should use a dataset of sliced cheeses to train my classifier. However, this might be more challenging than classifying whole cheeses or bigger slices. In the end, all hinges on choosing the proper way to build the dataset. 
 
 </div>
