@@ -5,7 +5,7 @@ module.exports = {
       options: {
         siteUrl: "", // Used for sitemap generation
         manifestSettings: {
-          favicon: "./content/images/cb_transparent.png", // Path is relative to the root
+          favicon: "./content/images/siteIcon.png", // Path is relative to the root
           siteName: "Chloé BENZ", // Used in manifest.json
           shortName: "cb ·", // Used in manifest.json
           startUrl: "/", // Used in manifest.json
