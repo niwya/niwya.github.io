@@ -74,7 +74,8 @@ ___
 
 </div>
 
-<img src="../../images/baseNetwork.png">
+&nbsp;&nbsp;&nbsp;For a more visual approach:
+!["Base model"](../../images/baseNetwork.png "Figure - Base network architecture")
 
 &nbsp;&nbsp;&nbsp;The rescaling layer is only there because the initial images are all different sizes - and they all need to be the same size once fed as input to the classifier.
 
