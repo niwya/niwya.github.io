@@ -74,25 +74,30 @@ ___
 
 </div>
 
-&nbsp;&nbsp;&nbsp;For a more visual approach:
-!["Base model"](../../images/baseNetwork.png "Figure - Base network architecture")
+&nbsp;&nbsp;&nbsp;Schematically, all the layers (omitting the rescaling layer) are represented on the following sktech:
+!["Base model architecture"](../../images/cheezam-baseNetwork.png "Figure - Base network architecture")
 
-&nbsp;&nbsp;&nbsp;The rescaling layer is only there because the initial images are all different sizes - and they all need to be the same size once fed as input to the classifier.
+&nbsp;&nbsp;&nbsp;The rescaling layer is only there because the initial images are RGB images with different sizes - but they all need to be the same shape (256·256·3) once fed as input to the classifier.
 
 ### Base model with dropout
 &nbsp;&nbsp;&nbsp;The base model is used, but with a few tweaks. Dropout layers are added after the second and third convolutional layers. These dropout layers randomly set inputs to 0 <u>with a frequency of 0.4</u> (during training only). This helps avoiding the overfitting of our model - *i.e.* it prevents the model from picking up too many details from the training data that may not be generalizable. 
 
 
 ### Base model with dropout and data augmentation
-&nbsp;&nbsp;&nbsp;Here once again, the base model is incremented with three new layers: <u>RandomFlip</u>, <u>RandomRotation</u> and <u>RandomZoom</u> , with parameters <u>'horizontal'</u>, <u>0.1</u> and <u>0.1</u> respectfully. Those layers are placed right after the resizing layer, and before the first convolution. This layer will provide artificial new images, by messing a bit with the images from the initial dataset. This way, the network is more robust to changes in size or in orientation of the cheeses.
+&nbsp;&nbsp;&nbsp;Here once again, the base model is incremented with three new layers: <u>RandomFlip</u>, <u>RandomRotation</u> and <u>RandomZoom</u> , with parameters <u>'horizontal'</u>, <u>0.1</u> and <u>0.1</u> respectfully. Those layers are placed right after the resizing layer, and before the first convolution. This layer will provide artificial new images, by messing a bit with the images from the initial dataset. This way, the network is more robust to changes in size or in orientation of the cheeses. The operations performed can be visualized on the figure below - the rotate and zoom operations have been exaggerated for convenience: 
+!["Data augmentation operations"](../../images/cheezam-dataAugmentation.png "Figure - Data augmentation operations")
 
 ### VGG-16 with dropout and data augmentation
-&nbsp;&nbsp;&nbsp;The VGG-16 architecture is [...].
+&nbsp;&nbsp;&nbsp;[MORE TO COME]
+___
+## Classification results
+&nbsp;&nbsp;&nbsp;[MORE TO COME]
 ___
 
 ## Future work
 ### Adding this project to GitHub
 &nbsp;&nbsp;&nbsp;Since this is was a school project, I have everything offline on my PC. I am currently in the process of adapting everything to post on my GitHub page, so that you can try it yourself if you want. Stay tuned!
+[MORE TO COME]
 
 ### More cheeses 
 &nbsp;&nbsp;&nbsp;The idea is to be able to classify most cheeses from pictures - and there are a LOT of them. But this requires me to build a dataset, and in the state of things, will be difficult. Not only the number of images I can get from Google Images is limited to a few hundreds per cheese type, but some cheeses may be underdocumented. Also, the neural network will need to be tweaked a little to accomodate the high number of labels. 
