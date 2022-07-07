@@ -105,4 +105,7 @@ ___
 ### An app?
 &nbsp;&nbsp;&nbsp;The end goal for this project is to build an actual application to be used on phones, to classify cheeses on the fly (*i.e* when you are at a restaurant and want to know what kind of cheese is in your platter). This is 100% doable, but an issue to keep in mind is that <u>cheeses on cheese platters are often cut in small slices</u> - which means I probaly should use a dataset of sliced cheeses to train my classifier. However, this might be more challenging than classifying whole cheeses or bigger slices. In the end, all hinges on choosing the proper way to build the dataset. 
 
+___
+
+Find this project on <a href = "https://github.com/niwya/cheezam">GitHub</a>.
 </div>
