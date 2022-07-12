@@ -88,19 +88,18 @@ ___
 !["Data augmentation operations"](../../images/cheezam-dataAugmentation.png "Figure - Data augmentation operations")
 
 ### VGG-16 with dropout and data augmentation
-&nbsp;&nbsp;&nbsp;[MORE TO COME]
+&nbsp;&nbsp;&nbsp;VGG-16 - with VGG standing for *Visual Geometry Group* - is a 16 layers deep convolutional neural network architecture. It was developed by K. Simonyan and A. Zisserman from the eponymous Visual Geometry Group of the University of Oxford, UK. This architecture, along with the VGG-19, scored very high in the localization and classification of the ILSVRC-2014, so that's why I chose it - more details on <a href = "https://www.robots.ox.ac.uk/~vgg/research/very_deep/" target = "_blank">this conference paper</a>. There's actually a lot of VGG-16 pre-trained implementations in different languages, but I decided to break it down and code it myself, since I did this projects to learn more about convolutional neural networks.
 ___
 ## Classification results
-&nbsp;&nbsp;&nbsp;[MORE TO COME]
+&nbsp;&nbsp;&nbsp;The following graph shows the validation accuracies for the base model, its incrementation with dropout layers and its version with dropout and data augmentation. It is clear that the model using dropout layers and data augmentation technoiques performs better that the other two, after 40 training epochs. In fact, with very little time spent tuning the model, it reaches a validation accuracy of about 70% on a dataset with two quasi-identical cheeses. 
+!["Testing accuracies"](../../images/cheezam-cnn4.png "Figure - Validation accuracies")
+
+&nbsp;&nbsp;&nbsp;I purposely chose not to include the VGG-16 results in this articles, as the current tuning of the model as can be seen on GitHub is not ideal. In fact, it barely reaches 60% validation accuracy on the state of things (though it reached above 80% when I submitted my project for grading) as I kept messing with the activation functions, dropout layers, batch normalization layers and so on and lost my working local copy. Stay tuned on GitHub for more recent updates!
 ___
 
 ## Future work
-### Adding this project to GitHub
-&nbsp;&nbsp;&nbsp;Since this is was a school project, I have everything offline on my PC. I am currently in the process of adapting everything to post on my GitHub page, so that you can try it yourself if you want. Stay tuned!
-[MORE TO COME]
-
 ### More cheeses 
-&nbsp;&nbsp;&nbsp;The idea is to be able to classify most cheeses from pictures - and there are a LOT of them. But this requires me to build a dataset, and in the state of things, will be difficult. Not only the number of images I can get from Google Images is limited to a few hundreds per cheese type, but some cheeses may be underdocumented. Also, the neural network will need to be tweaked a little to accomodate the high number of labels. 
+&nbsp;&nbsp;&nbsp;The idea is to be able to classify most cheeses from pictures - and there are a LOT of them. But this requires me to build a more complete dataset, and in the state of things, will be difficult. Not only the number of images I can get from Google Images is limited to a few hundreds per cheese type, but some cheeses may be underdocumented. Also, the neural network will need to be tweaked a little to accomodate the higher number of labels.
 
 ### An app?
 &nbsp;&nbsp;&nbsp;The end goal for this project is to build an actual application to be used on phones, to classify cheeses on the fly (*i.e* when you are at a restaurant and want to know what kind of cheese is in your platter). This is 100% doable, but an issue to keep in mind is that <u>cheeses on cheese platters are often cut in small slices</u> - which means I probaly should use a dataset of sliced cheeses to train my classifier. However, this might be more challenging than classifying whole cheeses or bigger slices. In the end, all hinges on choosing the proper way to build the dataset. 
