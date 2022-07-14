@@ -1,5 +1,16 @@
-import * as React from "react"
+import React from "react";
+import {
+  Page,
+  Seo,
+} from "gatsby-theme-portfolio-minimal";
 
-export default function Component () {
-  return "In Progress ..."
+export default function IndexPage() {
+  return (
+    <>
+      <Seo title="cb ·" />
+      <Page useSplashScreenAnimation>
+       In progress...
+      </Page>
+    </>
+  );
 }
