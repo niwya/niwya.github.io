@@ -29,9 +29,20 @@ keywords:
 
 ___
 
+## Overview
+&nbsp;&nbsp;&nbsp;To help you understand the key challenges of my thesis, here's a little poster:
+
+<object data="/MSThesis_poster.pdf" type="application/pdf" width="700px" height="450px">
+    <embed src="http://chloebenz.com/MSThesis_poster.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="http://chloebenz.com/MSThesis_poster.pdf" target = "_blank">Download PDF</a>.</p>
+    </embed>
+</object>
+
+___
+
 ## Credits & Publications
 &nbsp;&nbsp;&nbsp;This Master's thesis was undertaken under the supervision of Pr. Boris Pervan at the <a href = "http://www.navlab.iit.edu/" target = "_blank"> Navigation Lab </a> at IIT in Chicago, IL, USA, and with the help of Elisa Gallon, at that time PhD student at IIT.
 
-&nbsp;&nbsp;&nbsp;You can read my full thesis <a href = "/MSThesis.pdf"> here </a>. At this time, no other related publication is either in the works or has been published. 
+&nbsp;&nbsp;&nbsp;You can read my full thesis <a href = "/MSThesis.pdf" target = "_blank"> here </a>. At this time, no other related publication is either in the works or has been published. 
 
 </div>
