@@ -73,6 +73,6 @@ ___
 ## Credits & Publications
 &nbsp;&nbsp;&nbsp;This project was undertaken under the supervision of <a href ="https://www.cs.bham.ac.uk/~sridharm/" target = "_blank"> Dr. Mohan Sridharan </a> at the School of Computer Science in Birmingham, UK, and with the help of <a href = "https://arthurfindelair.com/" target = "_blank"> Arthur Findelair </a>, at that time student at ISAE-ENSMA, who was in charge of running the simulation. 
 
-&nbsp;&nbsp;&nbsp;A publication of an updated version of this project was presented at the KR 2022 conference in Haifa, Israel. Many thanks to Kévin Gloaguen, student at ISAE-ENSMA, for taking over this project and adding functionalities. 
+&nbsp;&nbsp;&nbsp;A publication of an updated version of this project will be showcased at the NMR 2022 conference in Haifa, Israel. Many thanks to Kévin Gloaguen, student at ISAE-ENSMA, for taking over this project and adding functionalities. 
 
 </div>
