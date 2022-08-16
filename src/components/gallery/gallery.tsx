@@ -44,7 +44,7 @@ query ImagesForGallery {
             node {
               childImageSharp {
                 thumb: gatsbyImageData(
-                  width: 480
+                  width: 405
                   height: 270
                   placeholder: BLURRED
                 )
