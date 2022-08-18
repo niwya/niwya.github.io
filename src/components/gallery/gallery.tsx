@@ -1,7 +1,11 @@
 import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import Gallery from '@browniebroke/gatsby-image-gallery';
-import { IGatsbyImageData } from 'gatsby-plugin-image'
+import { IGatsbyImageData } from 'gatsby-plugin-image';
+
+import { Amplify, Storage } from 'aws-amplify';
+import awsconfig from '../../aws-exports';
+Amplify.configure(awsconfig);
 
 interface ImageSharpEdge {
     node: {

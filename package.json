@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@browniebroke/gatsby-image-gallery": "^7.0.7",
+    "aws-amplify": "^4.3.31",
     "gatsby": "^4.0.2",
     "gatsby-plugin-mdx": "^3.18.0",
     "gatsby-plugin-web-font-loader": "^1.0.4",

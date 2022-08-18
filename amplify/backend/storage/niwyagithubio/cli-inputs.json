@@ -1,0 +1,12 @@
+{
+  "resourceName": "niwyagithubio",
+  "policyUUID": "e6174ce9",
+  "bucketName": "niwyagithubio",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "READ"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}
